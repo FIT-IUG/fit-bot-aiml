@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern> # <set>defenitions</set> # </pattern>
+        <template>
+            <think><set name="register_add"><star index="2"/></set></think>
+            <srai>registerAdd</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern> # <set>question_vocab</set> # <set>defenitions</set> # </pattern>
+        <template>
+            <think><set name="register_def"><star index="4"/></set></think>
+            <srai>registerDef</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern> registerDef </pattern>
+        <template>
+            <condition name="register_def">
+                <li value="السحب"><srai>pullDef</srai></li>
+                <li value="بالسحب"><srai>pullDef</srai></li>
+                <li value="سحب"><srai>pullDef</srai></li>
+                <li value="سحب مادة"><srai>pullDef</srai></li>
+                <li value="بسحب مادة"><srai>pullDef</srai></li>
+                <li value="سحب مواد"><srai>pullDef</srai></li>
+                <li value="بسحب مواد"><srai>pullDef</srai></li>
+                <li value="سحب مساقات"><srai>pullDef</srai></li>
+                <li value="بسحب مساقات"><srai>pullDef</srai></li>
+                <li value="سحب المادة"><srai>pullDef</srai></li>
+                <li value="بسحب المادة"><srai>pullDef</srai></li>
+                <li value="سحب مساق"><srai>pullDef</srai></li>
+                <li value="بسحب مساق"><srai>pullDef</srai></li>
+                <li value="سحب المساق"><srai>pullDef</srai></li>
+                <li value="بسحب المساق"><srai>pullDef</srai></li>
+                <li value="الانسحاب"><srai>pullingOutDef</srai></li>
+                <li value="بالانسحاب"><srai>pullingOutDef</srai></li>
+                <li value="الإنسحاب"><srai>pullingOutDef</srai></li>
+                <li value="بالإنسحاب"><srai>pullingOutDef</srai></li>
+                <li value="الانسحاب من المساق"><srai>pullingOutDef</srai></li>
+                <li value="بالانسحاب من المساق"><srai>pullingOutDef</srai></li>
+                <li value="الإنسحاب من المساق"><srai>pullingOutDef</srai></li>
+                <li value="بالإنسحاب من المساق"><srai>pullingOutDef</srai></li>
+                <li value="الانسحاب من المادة"><srai>pullingOutDef</srai></li>
+                <li value="بالانسحاب من المادة"><srai>pullingOutDef</srai></li>
+                <li value="الإنسحاب من المادة"><srai>pullingOutDef</srai></li>
+                <li value="بالإنسحاب من المادة"><srai>pullingOutDef</srai></li>
+                <li value="الانسحاب من مساق"><srai>pullingOutDef</srai></li>
+                <li value="بالانسحاب من مساق"><srai>pullingOutDef</srai></li>
+                <li value="الإنسحاب من مساق"><srai>pullingOutDef</srai></li>
+                <li value="بالإنسحاب من مساق"><srai>pullingOutDef</srai></li>
+                <li value="الانسحاب من مادة"><srai>pullingOutDef</srai></li>
+                <li value="بالانسحاب من مادة"><srai>pullingOutDef</srai></li>
+                <li value="الإنسحاب من مادة"><srai>pullingOutDef</srai></li>
+                <li value="بالإنسحاب من مادة"><srai>pullingOutDef</srai></li>
+                <li value="الانسحاب من مواد"><srai>pullingOutDef</srai></li>
+                <li value="بالانسحاب من مواد"><srai>pullingOutDef</srai></li>
+                <li value="الإنسحاب من مواد"><srai>pullingOutDef</srai></li>
+                <li value="بالإنسحاب من مواد"><srai>pullingOutDef</srai></li>
+                <li value="الانسحاب من مساقات"><srai>pullingOutDef</srai></li>
+                <li value="بالانسحاب من مساقات"><srai>pullingOutDef</srai></li>
+                <li value="الإنسحاب من مساقات"><srai>pullingOutDef</srai></li>
+                <li value="بالإنسحاب من مساقات"><srai>pullingOutDef</srai></li>
+                <li value="اضافة"><srai>addDef</srai></li>
+                <li value="إضافة"><srai>addDef</srai></li>
+                <li value="الاضافة"><srai>addDef</srai></li>
+                <li value="بالاضافة"><srai>addDef</srai></li>
+                <li value="الإضافة"><srai>addDef</srai></li>
+                <li value="بالإضافة"><srai>addDef</srai></li>
+                <li value="اضافة المادة"><srai>addDef</srai></li>
+                <li value="باضافة المادة"><srai>addDef</srai></li>
+                <li value="إضافة المادة"><srai>addDef</srai></li>
+                <li value="بإضافة المادة"><srai>addDef</srai></li>
+                <li value="اضافة المساق"><srai>addDef</srai></li>
+                <li value="باضافة المساق"><srai>addDef</srai></li>
+                <li value="إضافة المساق"><srai>addDef</srai></li>
+                <li value="بإضافة المساق"><srai>addDef</srai></li>
+                <li value="اضافة المواد"><srai>addDef</srai></li>
+                <li value="باضافة المواد"><srai>addDef</srai></li>
+                <li value="إضافة المواد"><srai>addDef</srai></li>
+                <li value="بإضافة المواد"><srai>addDef</srai></li>
+                <li value="اضافة المساقات"><srai>addDef</srai></li>
+                <li value="باضافة المساقات"><srai>addDef</srai></li>
+                <li value="إضافة المساقات"><srai>addDef</srai></li>
+                <li value="بإضافة المساقات"><srai>addDef</srai></li>
+                <li value="اضافة مواد"><srai>addDef</srai></li>
+                <li value="باضافة مواد"><srai>addDef</srai></li>
+                <li value="إضافة مواد"><srai>addDef</srai></li>
+                <li value="بإضافة مواد"><srai>addDef</srai></li>
+                <li value="اضافة مادة"><srai>addDef</srai></li>
+                <li value="باضافة مادة"><srai>addDef</srai></li>
+                <li value="إضافة مادة"><srai>addDef</srai></li>
+                <li value="بإضافة مادة"><srai>addDef</srai></li>
+                <li value="اضافة مساق"><srai>addDef</srai></li>
+                <li value="باضافة مساق"><srai>addDef</srai></li>
+                <li value="إضافة مساق"><srai>addDef</srai></li>
+                <li value="بإضافة مساق"><srai>addDef</srai></li>
+                <li value="اضافة مساقات"><srai>addDef</srai></li>
+                <li value="باضافة مساقات"><srai>addDef</srai></li>
+                <li value="إضافة مساقات"><srai>addDef</srai></li>
+                <li value="بإضافة مساقات"><srai>addDef</srai></li>
+                <li value="المعدل التراكمي"><srai>GPA</srai></li>
+                <li value="بالمعدل التراكمي"><srai>GPA</srai></li>
+                <li value="معدل تراكمي"><srai>GPA</srai></li>
+                <li value="المعدل الفصلي"><srai>SemesterAverage</srai></li>
+                <li value="بالمعدل الفصلي"><srai>SemesterAverage</srai></li>
+                <li value="معدل فصلي"><srai>SemesterAverage</srai></li>
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern> registerAdd </pattern>
+        <template>
+          <condition name="register_add">
+              <li value="سحب مادة"><srai>pullCourse</srai></li>
+              <li value="اسحب"><srai>pullCourse</srai></li>
+              <li value="أسحب"><srai>pullCourse</srai></li>
+              <li value="اسحب مادة"><srai>pullCourse</srai></li>
+              <li value="أسحب مادة"><srai>pullCourse</srai></li>
+              <li value="اسحب مواد"><srai>pullCourse</srai></li>
+              <li value="أسحب مواد"><srai>pullCourse</srai></li>
+              <li value="اسحب مساقات"><srai>pullCourse</srai></li>
+              <li value="أسحب مساقات"><srai>pullCourse</srai></li>
+              <li value="اسحب المادة"><srai>pullCourse</srai></li>
+              <li value="أسحب المادة"><srai>pullCourse</srai></li>
+              <li value="اسحب مساق"><srai>pullCourse</srai></li>
+              <li value="أسحب مساق"><srai>pullCourse</srai></li>
+              <li value="اسحب المساق"><srai>pullCourse</srai></li>
+              <li value="أسحب المساق"><srai>pullCourse</srai></li>
+              <li value="الانسحاب"><srai>pullingOutcourse</srai></li>
+              <li value="الإنسحاب"><srai>pullingOutcourse</srai></li>
+              <li value="الانسحاب من المساق"><srai>pullingOutcourse</srai></li>
+              <li value="الإنسحاب من المساق"><srai>pullingOutcourse</srai></li>
+              <li value="الانسحاب من المادة"><srai>pullingOutcourse</srai></li>
+              <li value="الإنسحاب من المادة"><srai>pullingOutcourse</srai></li>
+              <li value="الانسحاب من مساق"><srai>pullingOutcourse</srai></li>
+              <li value="الإنسحاب من مساق"><srai>pullingOutcourse</srai></li>
+              <li value="الانسحاب من مادة"><srai>pullingOutcourse</srai></li>
+              <li value="الإنسحاب من مادة"><srai>pullingOutcourse</srai></li>
+              <li value="الانسحاب من مواد"><srai>pullingOutcourse</srai></li>
+              <li value="الإنسحاب من مواد"><srai>pullingOutcourse</srai></li>
+              <li value="الانسحاب من مساقات"><srai>pullingOutcourse</srai></li>
+              <li value="الإنسحاب من مساقات"><srai>pullingOutcourse</srai></li>
+              <li value="انسحب"><srai>pullingOutcourse</srai></li>
+              <li value="أنسحب"><srai>pullingOutcourse</srai></li>
+              <li value="انسحب من مساق"><srai>pullingOutcourse</srai></li>
+              <li value="أنسحب من مساق"><srai>pullingOutcourse</srai></li>
+              <li value="انسحب من مادة"><srai>pullingOutcourse</srai></li>
+              <li value="أنسحب من مادة"><srai>pullingOutcourse</srai></li>
+              <li value="انسحب من مواد"><srai>pullingOutcourse</srai></li>
+              <li value="أنسحب من مواد"><srai>pullingOutcourse</srai></li>
+              <li value="انسحب من مساقات"><srai>pullingOutcourse</srai></li>
+              <li value="أنسحب من مساقات"><srai>pullingOutcourse</srai></li>
+              <li value="انسحب من المادة"><srai>pullingOutcourse</srai></li>
+              <li value="أنسحب من المادة"><srai>pullingOutcourse</srai></li>
+              <li value="انسحب من المساق"><srai>pullingOutcourse</srai></li>
+              <li value="أنسحب من المساق"><srai>pullingOutcourse</srai></li>
+              <li value="اضافة"><srai>addCourse</srai></li>
+              <li value="إضافة"><srai>addCourse</srai></li>
+              <li value="الاضافة"><srai>addCourse</srai></li>
+              <li value="الإضافة"><srai>addCourse</srai></li>
+              <li value="أضيف"><srai>addCourse</srai></li>
+              <li value="اضيف"><srai>addCourse</srai></li>
+              <li value="اضيف مادة"><srai>addCourse</srai></li>
+              <li value="أضيف مادة"><srai>addCourse</srai></li>
+              <li value="اضيف مواد"><srai>addCourse</srai></li>
+              <li value="أضيف مواد"><srai>addCourse</srai></li>
+              <li value="اضيف مساق"><srai>addCourse</srai></li>
+              <li value="أضيف مساق"><srai>addCourse</srai></li>
+              <li value="اضيف مساقات"><srai>addCourse</srai></li>
+              <li value="أضيف مساقات"><srai>addCourse</srai></li>
+              <li value="اضيف المادة"><srai>addCourse</srai></li>
+              <li value="أضيف المادة"><srai>addCourse</srai></li>
+              <li value="اضيف المساق"><srai>addCourse</srai></li>
+              <li value="أضيف المساق"><srai>addCourse</srai></li>
+              <li value="اضيف المواد"><srai>addCourse</srai></li>
+              <li value="أضيف المواد"><srai>addCourse</srai></li>
+              <li value="اضيف المساقات"><srai>addCourse</srai></li>
+              <li value="أضيف المساقات"><srai>addCourse</srai></li>
+              <li value="اضافة المادة"><srai>addCourse</srai></li>
+              <li value="إضافة المادة"><srai>addCourse</srai></li>
+              <li value="اضافة المساق"><srai>addCourse</srai></li>
+              <li value="إضافة المساق"><srai>addCourse</srai></li>
+              <li value="اضافة المواد"><srai>addCourse</srai></li>
+              <li value="إضافة المواد"><srai>addCourse</srai></li>
+              <li value="اضافة المساقات"><srai>addCourse</srai></li>
+              <li value="إضافة المساقات"><srai>addCourse</srai></li>
+              <li value="اضافة مواد"><srai>addCourse</srai></li>
+              <li value="إضافة مواد"><srai>addCourse</srai></li>
+              <li value="اضافة مادة"><srai>addCourse</srai></li>
+              <li value="إضافة مادة"><srai>addCourse</srai></li>
+              <li value="اضافة مساق"><srai>addCourse</srai></li>
+              <li value="إضافة مساق"><srai>addCourse</srai></li>
+              <li value="اضافة مساقات"><srai>addCourse</srai></li>
+              <li value="إضافة مساقات"><srai>addCourse</srai></li>
+              <li value="المعدل التراكمي"><srai>GPACalc</srai></li>
+              <li value="معدلي التراكمي"><srai>GPACalc</srai></li>
+              <li value="المعدل الفصلي"><srai>SemesterAverageCalc</srai></li>
+              <li value="معدلي الفصلي"><srai>SemesterAverageCalc</srai></li>
+          </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern> addCourse </pattern>
+        <template>
+            يجوز للطالب إضافة مساقات أخرى إلى عبئه الدراسي خلال
+            أسبوعين فقط من بدء الفصل الدراسي، مع مراعاة عدم تجاوز
+            الحد الأعلى للعبء الدراسي.
+
+            وذلك من خلال صفحتك الجامعية ومن ثم -> القبول والتسجيل -> التسجيل الفصلي ->
+            الضغط على العلامة الخضراء بجانب المساق المسجل للفصل الحالي.
+
+            او من خلال التوجه الي رئيس قسمك او مدير الكلية.
+       </template>
+    </category>
+
+    <category>
+        <pattern> pullCourse </pattern>
+        <template>
+            يسمح للطالب بسحب أي مساق خلال ثلاثة أسابيع من بداية
+            الفصل الدراسي، مع مراعاة الحد الأدنى للعبء الدراسي،
+            ويحق للطالب استرداد الرسوم كاملة للمساقات التي سحبها،
+            أما إذا سحب جميع المساقات المسجلة في تلك الفترة فإنه يحق للطالب
+            أن يسترد في الأسبوع الأول 80% من كامل رسوم المواد المسجلة،
+            و60% في الأسبوع الثاني، و40% في الأسبوع الثالث.
+
+            وذلك من خلال صفحتك الجامعية ومن ثم -> القبول والتسجيل -> التسجيل الفصلي ->
+            الضغط على العلامة الحمراء بجانب المساق المسجل للفصل الحالي.
+       </template>
+    </category>
+
+    <category>
+        <pattern> pullingOutcourse </pattern>
+        <template>
+            يسمح للطالب بالانسحاب من أي مساق (مساقات) بعد ثلاثة أسابيع
+            وحتى نهاية الأسبوع الثاني عشر من بداية الدراسة للفصل الدراسي،
+            ويفقد حقه في استرداد رسوم ذلك المساق (المساقات) وتسجل علامة (w)
+            في الكشف، مع مراعاة الحد الأدنى للعبء الدراسي.
+
+            وذلك من خلال التوجه الى مدير كليتك او الى عمادة شؤون الطلبة.
+       </template>
+    </category>
+
+    <category>
+        <pattern> GPACalc </pattern>
+        <template>
+            ضرب علامة كل مساق درسه الطالب في عدد ساعاته المعتمدة مقسومة على عددالساعات الكلي.
+       </template>
+    </category>
+
+    <category>
+        <pattern> SemesterAverageCalc </pattern>
+        <template>
+            ضرب علامة كل مساق درسه الطالب في عدد ساعاته المعتمدة مقسومة على عدد الساعات المعتمدة المسجلة لذلك الفصل.
+       </template>
+    </category>
+
+    <category>
+        <pattern> pullDef </pattern>
+        <template>
+            إلغاء تسجيل مساق أو أكثر سجله الطالب، مع استرداد الرسوم، وذلك خلال مدة زمنية محددة في الفصل الدراسي.
+        </template>
+    </category>
+
+    <category>
+        <pattern> pullingOutDef </pattern>
+        <template>
+            سحب مساق أو مساقات من الفصل الدراسي دون استرداد الرسوم بعد الفترة المقررة للسحب، وذلك خلال مدة زمنية محددة في الفصل الدراسي.
+        </template>
+    </category>
+
+    <category>
+        <pattern> addDef </pattern>
+        <template>
+            تسجيل الطالب المساق أو أكثر بعد انتهاء مدة التسجيل العادي خلال مدة زمنية محددة في الفصل الدراسي.
+        </template>
+    </category>
+
+    <category>
+        <pattern> GPA </pattern>
+        <template>
+            هو ناتج مجموع حاصل ضرب علامة كل مساق درسه الطالب في عدد ساعاته المعتمدة مقسومة على عدد
+           الساعات الكلي حتى تاريخ احتساب ذلك المعدل،وذلك للمساقات التي تقع ضمن وذلك للمساقات التي
+             تقع ضمن خطة الطالب الأكاديمية.
+        </template>
+    </category>
+
+    <category>
+        <pattern> SemesterAverage </pattern>
+        <template>
+            هو ناتج مجموع حاصل ضرب علامة كل مساق درسه الطالب في عدد ساعاته
+              المعتمدة مقسومة على عدد الساعات المعتمدة المسجلة لذلك الفصل.
+        </template>
+    </category>
+
+
+</aiml>

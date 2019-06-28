@@ -30,16 +30,9 @@
     </category>
 
     <category>
-        <pattern> # ساعات مكتبية # <set>teachers_title</set> # <set>teachers_names</set> # </pattern>
+        <pattern> # <set>office_hours</set> # <set>teachers_title</set> # <set>teachers_names</set> # </pattern>
         <template>
-            <map name="teachers_office_hours"><star index="5"/></map>
-        </template>
-    </category>
-
-    <category>
-        <pattern> # الساعات المكتبية # <set>teachers_title</set> # <set>teachers_names</set> # </pattern>
-        <template>
-            <map name="teachers_office_hours"><star index="5"/></map>
+            <map name="teachers_office_hours"><star index="6"/></map>
         </template>
     </category>
 

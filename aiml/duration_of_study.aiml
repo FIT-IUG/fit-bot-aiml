@@ -15,7 +15,10 @@
             <condition name="Duration">
               <li value="مدة الفصل الدراسي"><srai>SemDuration</srai></li>
               <li value="مدة الدراسة الفصلية"><srai>SemDuration</srai></li>
+              <li value="المدة الدراسية الفصلية"><srai>SemDuration</srai></li>
               <li value="مدة الفصل"><srai>SemDuration</srai></li>
+              <li value="مدة الدراسة"><srai>SemDuration</srai></li>
+              <li value="المدة الدراسة"><srai>SemDuration</srai></li>
               <li value="مدة فصل دراسي"><srai>SemDuration</srai></li>
               <li value="مدة الدرجة الجامعية الاولى"><srai>DurationOfNormalDegree</srai></li>
               <li value="درجة جامعية اولى"><srai>DurationOfNormalDegree</srai></li>

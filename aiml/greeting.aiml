@@ -68,7 +68,28 @@
             </random>
         </template>
 	</category>
-    
+
+    <category>
+		<pattern> # بارك الله فيك # </pattern>
+        <template>
+            <random>
+                <li>حظا سعيدا</li>
+                <li>و فيك</li>
+                <li>حياك الله</li>
+            </random>
+        </template>
+	</category>
+
+    <category>
+		<pattern> # حياك الله # </pattern>
+        <template>
+            <random>
+                <li>حظا سعيدا</li>
+                <li>بارك الله فيك</li>
+            </random>
+        </template>
+	</category>
+
     <category>
         <pattern> # تصبح على خير # </pattern>
         <template> و انت من أهله</template>

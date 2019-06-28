@@ -5,16 +5,18 @@
         <pattern> # <set>general</set> # </pattern>
         <template>
             <think><set name="frequentQ"><star index="2"/></set></think>
-            <srai>answerofFrequent</srai>
+            <srai>AnswerOfFrequent</srai>
         </template>
     </category>
 
     <category>
-        <pattern> answerofFrequent </pattern>
+        <pattern> AnswerOfFrequent </pattern>
         <template>
             <condition name="frequentQ">
               <li value="محاضرة"><srai>Lecture</srai></li>
               <li value="المحاضرة"><srai>Lecture</srai></li>
+              <li value="مساق"><srai>Lecture</srai></li>
+              <li value="المساق"><srai>Lecture</srai></li>
               <li value="محاضرات"><srai>Lecture</srai></li>
               <li value="المحاضرات"><srai>Lecture</srai></li>
               <li value="الفصل"><srai>Lecture</srai></li>
@@ -43,6 +45,11 @@
 
     <category>
         <pattern> # رسائل # <set>recommendation</set> # </pattern>
+        <template>يمكنك الحصول عليها من خلال التواصل مع سكيرتير الكلية او الدكتور الذي تريد الرسالة منه</template>
+    </category>
+
+    <category>
+        <pattern> # رساله # <set>recommendation</set> # </pattern>
         <template>يمكنك الحصول عليها من خلال التواصل مع سكيرتير الكلية او الدكتور الذي تريد الرسالة منه</template>
     </category>
 

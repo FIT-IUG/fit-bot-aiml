@@ -81,6 +81,7 @@
                <li value="تجسير عشهادة بكالوريوس"><srai>acceptByBA</srai></li>
                <li value="التجسير عشهادة البكالوريوس"><srai>acceptByBA</srai></li>
                <li value="التجسير عشهادة بكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="القبول للبكالوريوس"><srai>acceptByBA</srai></li>
           </condition>
         </template>
     </category>

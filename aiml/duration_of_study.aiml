@@ -14,6 +14,7 @@
         <template>
             <condition name="Duration">
               <li value="مدة الفصل الدراسي"><srai>SemDuration</srai></li>
+              <li value="المدة للفصل الدراسي"><srai>SemDuration</srai></li>
               <li value="مدة الدراسة الفصلية"><srai>SemDuration</srai></li>
               <li value="المدة الدراسية الفصلية"><srai>SemDuration</srai></li>
               <li value="مدة الفصل"><srai>SemDuration</srai></li>
@@ -52,22 +53,6 @@
               <li value="أقصى حد للساعات"><srai>maxOfHours</srai></li>
               <li value="أكثر حد للساعات"><srai>maxOfHours</srai></li>
               <li value="أكبر حد للساعات"><srai>maxOfHours</srai></li>
-              <li value="أكبر"><srai>maxOfHours</srai></li>
-              <li value="اكبر"><srai>maxOfHours</srai></li>
-              <li value="الأكبر"><srai>maxOfHours</srai></li>
-              <li value="الاكبر"><srai>maxOfHours</srai></li>
-              <li value="اكثر"><srai>maxOfHours</srai></li>
-              <li value="أكثر"><srai>maxOfHours</srai></li>
-              <li value="الأكثر"><srai>maxOfHours</srai></li>
-              <li value="الاكثر"><srai>maxOfHours</srai></li>
-              <li value="اعلى"><srai>maxOfHours</srai></li>
-              <li value="أعلى"><srai>maxOfHours</srai></li>
-              <li value="الأعلى"><srai>maxOfHours</srai></li>
-              <li value="الاعلى"><srai>maxOfHours</srai></li>
-              <li value="اقصى"><srai>maxOfHours</srai></li>
-              <li value="أقصى"><srai>maxOfHours</srai></li>
-              <li value="الاقصى"><srai>maxOfHours</srai></li>
-              <li value="الأقصى"><srai>maxOfHours</srai></li>
               <li value="اعلى عدد من الساعات"><srai>maxOfHours</srai></li>
               <li value="اقصى عدد من الساعات"><srai>maxOfHours</srai></li>
               <li value="اكثر عدد من الساعات"><srai>maxOfHours</srai></li>
@@ -140,14 +125,6 @@
               <li value="اقل حد للساعات"><srai>minOfHours</srai></li>
               <li value="أدنى حد للساعات"><srai>minOfHours</srai></li>
               <li value="أقل حد للساعات"><srai>minOfHours</srai></li>
-              <li value="اقل"><srai>minOfHours</srai></li>
-              <li value="أقل"><srai>minOfHours</srai></li>
-              <li value="الأقل"><srai>minOfHours</srai></li>
-              <li value="الاقل"><srai>minOfHours</srai></li>
-              <li value="ادنى"><srai>minOfHours</srai></li>
-              <li value="أدنى"><srai>minOfHours</srai></li>
-              <li value="الادنى"><srai>minOfHours</srai></li>
-              <li value="الأدنى"><srai>minOfHours</srai></li>
             </condition>
         </template>
     </category>
@@ -155,7 +132,7 @@
     <category>
         <pattern> SemDuration </pattern>
         <template>
-            مدة الفصل الدراسي (15) خمسة عشرة أسبوعة دراسية بالإضافة إلى فترة الامتحانات.
+            مدة الفصل الدراسي (15) خمسة عشرة أسبوعا دراسيا بالإضافة إلى فترة الامتحانات.
        </template>
     </category>
 

@@ -9,7 +9,7 @@
     </category>
 
     <category>
-        <pattern> # <set>general_words</set> # <set>teachers_title</set> # <set>teachers_names</set> # </pattern>
+        <pattern> # <set>general_words</set> # <set>teachers_title</set> #  </pattern>
         <template>
           gif يمكنك معرفة ذلك من خلال http://fit.iugaza.edu.ps/عن-الكلية/الهيئة-التدريسية
         </template>

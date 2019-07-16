@@ -12,15 +12,21 @@
     	<pattern> # <set>self</set> # </pattern>
     	<template>
             <think><set name="username"> <star index="3"/></set></think>مرحبا بك
-            <get name="username"></get>
+            <get name="username"></get>,كيف ممكن أساعدك؟
         </template>
     </category>
 
     <category>
-        <pattern> # </pattern>
-        <that> # <set>greeting</set> # </that>
+        <pattern> # اسمك # </pattern>
         <template>
-        	مرحبا بك, <star/>
+            أسمي Fit-Bot ,ايش أسمك أنت؟
+       </template>
+    </category>
+
+    <category>
+        <pattern> # أسمك # </pattern>
+        <template>
+            أسمي Fit-Bot ,ايش أسمك أنت
         </template>
     </category>
 

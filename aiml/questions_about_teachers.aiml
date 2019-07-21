@@ -9,7 +9,42 @@
     </category>
 
     <category>
+        <pattern> # مدير # </pattern>
+        <template>
+            أ.عرفات محمد أبو جري
+        </template>
+    </category>
+
+    <category>
+        <pattern> # المدير # </pattern>
+        <template>
+            أ.عرفات محمد أبو جري
+        </template>
+    </category>
+
+    <category>
+        <pattern> # عميد # </pattern>
+        <template>
+            الدكتور ربحي بركة
+        </template>
+    </category>
+
+    <category>
+        <pattern> # العميد # </pattern>
+        <template>
+            الدكتور ربحي بركة
+        </template>
+    </category>
+
+    <category>
         <pattern> # <set>general_words</set> # <set>teachers_title</set> #  </pattern>
+        <template>
+          gif يمكنك معرفة ذلك من خلال http://fit.iugaza.edu.ps/عن-الكلية/الهيئة-التدريسية
+        </template>
+    </category>
+
+    <category>
+        <pattern> # <set>general_words</set> # <set>teachers_names</set> #  </pattern>
         <template>
           gif يمكنك معرفة ذلك من خلال http://fit.iugaza.edu.ps/عن-الكلية/الهيئة-التدريسية
         </template>
@@ -23,7 +58,7 @@
     </category>
 
     <category>
-        <pattern> # <set>general_words</set> ^ <set>teachers_title</set> # <set>specializations</set> # </pattern>
+        <pattern> # <set>general_words</set> # <set>teachers_title</set> # <set>specializations</set> # </pattern>
         <template>
              يمكنك معرفة ذلك من خلال http://fit.iugaza.edu.ps/عن-الكلية/الهيئة-التدريسية
         </template>
@@ -38,6 +73,13 @@
 
     <category>
         <pattern> # مكتب # <set>teachers_title</set> # <set>teachers_names</set> # </pattern>
+        <template>
+            <map name="teachers_office_location"><star index="5"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern> # غرفة # <set>teachers_title</set> # <set>teachers_names</set> # </pattern>
         <template>
             <map name="teachers_office_location"><star index="5"/></map>
         </template>

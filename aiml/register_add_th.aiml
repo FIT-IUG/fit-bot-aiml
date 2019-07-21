@@ -152,6 +152,7 @@
               <li value="السحب"><srai>pullCourse</srai></li>
               <li value="سحب مادة"><srai>pullCourse</srai></li>
               <li value="لسحب مادة"><srai>pullCourse</srai></li>
+              <li value="بسحب مادة"><srai>pullCourse</srai></li>
               <li value="اسحب"><srai>pullCourse</srai></li>
               <li value="للسحب"><srai>pullCourse</srai></li>
               <li value="أسحب"><srai>pullCourse</srai></li>
@@ -167,33 +168,46 @@
               <li value="أسحب مساقات"><srai>pullCourse</srai></li>
               <li value="اسحب المادة"><srai>pullCourse</srai></li>
               <li value="لسحب المادة"><srai>pullCourse</srai></li>
+              <li value="بسحب المادة"><srai>pullCourse</srai></li>
               <li value="أسحب المادة"><srai>pullCourse</srai></li>
               <li value="اسحب مساق"><srai>pullCourse</srai></li>
               <li value="لسحب مساق"><srai>pullCourse</srai></li>
+              <li value="بسحب مساق"><srai>pullCourse</srai></li>
               <li value="أسحب مساق"><srai>pullCourse</srai></li>
               <li value="اسحب المساق"><srai>pullCourse</srai></li>
               <li value="لسحب المساق"><srai>pullCourse</srai></li>
+              <li value="بسحب المساق"><srai>pullCourse</srai></li>
               <li value="أسحب المساق"><srai>pullCourse</srai></li>
               <li value="الانسحاب"><srai>pullingOutcourse</srai></li>
+              <li value="بالانسحاب"><srai>pullingOutcourse</srai></li>
               <li value="للانسحاب"><srai>pullingOutcourse</srai></li>
               <li value="للإنسحاب"><srai>pullingOutcourse</srai></li>
+              <li value="بالإنسحاب"><srai>pullingOutcourse</srai></li>
               <li value="الإنسحاب"><srai>pullingOutcourse</srai></li>
               <li value="الانسحاب من المساق"><srai>pullingOutcourse</srai></li>
               <li value="للانسحاب من المساق"><srai>pullingOutcourse</srai></li>
+              <li value="بالانسحاب من المساق"><srai>pullingOutcourse</srai></li>
               <li value="الإنسحاب من المساق"><srai>pullingOutcourse</srai></li>
               <li value="للإنسحاب من المساق"><srai>pullingOutcourse</srai></li>
+              <li value="بالإنسحاب من المساق"><srai>pullingOutcourse</srai></li>
               <li value="الانسحاب من المادة"><srai>pullingOutcourse</srai></li>
+              <li value="بالانسحاب من المادة"><srai>pullingOutcourse</srai></li>
               <li value="للانسحاب من المادة"><srai>pullingOutcourse</srai></li>
               <li value="الإنسحاب من المادة"><srai>pullingOutcourse</srai></li>
+              <li value="بالإنسحاب من المادة"><srai>pullingOutcourse</srai></li>
               <li value="للإنسحاب من المادة"><srai>pullingOutcourse</srai></li>
               <li value="الانسحاب من مساق"><srai>pullingOutcourse</srai></li>
               <li value="للانسحاب من مساق"><srai>pullingOutcourse</srai></li>
+              <li value="بالانسحاب من مساق"><srai>pullingOutcourse</srai></li>
               <li value="الإنسحاب من مساق"><srai>pullingOutcourse</srai></li>
               <li value="للإنسحاب من مساق"><srai>pullingOutcourse</srai></li>
+              <li value="بالإنسحاب من مساق"><srai>pullingOutcourse</srai></li>
               <li value="الانسحاب من مادة"><srai>pullingOutcourse</srai></li>
               <li value="الانسحاب من مادة"><srai>pullingOutcourse</srai></li>
+              <li value="بالانسحاب من مادة"><srai>pullingOutcourse</srai></li>
               <li value="للانسحاب من مادة"><srai>pullingOutcourse</srai></li>
               <li value="للإنسحاب من مادة"><srai>pullingOutcourse</srai></li>
+              <li value="بالإنسحاب من مادة"><srai>pullingOutcourse</srai></li>
               <li value="الانسحاب من مواد"><srai>pullingOutcourse</srai></li>
               <li value="للانسحاب من مواد"><srai>pullingOutcourse</srai></li>
               <li value="الانسحاب من مواد"><srai>pullingOutcourse</srai></li>
@@ -231,8 +245,10 @@
               <li value="لأنسحب من المساق"><srai>pullingOutcourse</srai></li>
               <li value="أنسحب من المساق"><srai>pullingOutcourse</srai></li>
               <li value="اضافة"><srai>addCourse</srai></li>
+              <li value="باضافة"><srai>addCourse</srai></li>
               <li value="لاضافة"><srai>addCourse</srai></li>
               <li value="إضافة"><srai>addCourse</srai></li>
+              <li value="بإضافة"><srai>addCourse</srai></li>
               <li value="لإضافة"><srai>addCourse</srai></li>
               <li value="الاضافة"><srai>addCourse</srai></li>
               <li value="للاضافة"><srai>addCourse</srai></li>
@@ -242,6 +258,8 @@
               <li value="لأضيف"><srai>addCourse</srai></li>
               <li value="اضيف"><srai>addCourse</srai></li>
               <li value="لاضيف"><srai>addCourse</srai></li>
+              <li value="باضافة مادة"><srai>addCourse</srai></li>
+              <li value="بإضافة مادة"><srai>addCourse</srai></li>
               <li value="اضيف مادة"><srai>addCourse</srai></li>
               <li value="لاضيف مادة"><srai>addCourse</srai></li>
               <li value="لأضيف مادة"><srai>addCourse</srai></li>
@@ -250,6 +268,8 @@
               <li value="لاضيف مواد"><srai>addCourse</srai></li>
               <li value="لأضيف مواد"><srai>addCourse</srai></li>
               <li value="أضيف مواد"><srai>addCourse</srai></li>
+              <li value="باضافة مساق"><srai>addCourse</srai></li>
+              <li value="بإضافة مساق"><srai>addCourse</srai></li>
               <li value="اضيف مساق"><srai>addCourse</srai></li>
               <li value="لاضيف مساق"><srai>addCourse</srai></li>
               <li value="لأضيف مساق"><srai>addCourse</srai></li>
@@ -275,13 +295,17 @@
               <li value="لأضيف المساقات"><srai>addCourse</srai></li>
               <li value="أضيف المساقات"><srai>addCourse</srai></li>
               <li value="اضافة المادة"><srai>addCourse</srai></li>
+              <li value="باضافة المادة"><srai>addCourse</srai></li>
               <li value="لاضافة المادة"><srai>addCourse</srai></li>
               <li value="لإضافة المادة"><srai>addCourse</srai></li>
               <li value="إضافة المادة"><srai>addCourse</srai></li>
+              <li value="بإضافة المادة"><srai>addCourse</srai></li>
               <li value="اضافة المساق"><srai>addCourse</srai></li>
+              <li value="باضافة المساق"><srai>addCourse</srai></li>
               <li value="لاضافة المساق"><srai>addCourse</srai></li>
               <li value="لإضافة المساق"><srai>addCourse</srai></li>
               <li value="إضافة المساق"><srai>addCourse</srai></li>
+              <li value="بإضافة المساق"><srai>addCourse</srai></li>
               <li value="اضافة المواد"><srai>addCourse</srai></li>
               <li value="لاضافة المواد"><srai>addCourse</srai></li>
               <li value="لإضافة المواد"><srai>addCourse</srai></li>
@@ -352,20 +376,16 @@
     <category>
         <pattern> Register </pattern>
         <template>
-            يجوز للطالب التسجيل للفصل الدراسي خلال
-            أسبوعين فقط من بدء الفصل الدراسي.
+            يجوز للطالب التسجيل للفصل الدراسي خلال أسبوعين فقط من بدء الفصل الدراسي.
        </template>
     </category>
 
     <category>
         <pattern> addCourse </pattern>
         <template>
-            يجوز للطالب إضافة مساقات أخرى إلى عبئه الدراسي خلال
-            أسبوعين فقط من بدء الفصل الدراسي، مع مراعاة عدم تجاوز
-            الحد الأعلى للعبء الدراسي.
+            يجوز للطالب إضافة مساقات أخرى إلى عبئه الدراسي خلال أسبوعين فقط من بدء الفصل الدراسي، مع مراعاة عدم تجاوز الحد الأعلى للعبء الدراسي.
 
-            وذلك من خلال صفحتك الجامعية ومن ثم -> القبول والتسجيل -> التسجيل الفصلي ->
-            الضغط على العلامة الخضراء بجانب المساق المسجل للفصل الحالي.
+            وذلك من خلال صفحتك الجامعية ومن ثم -> القبول والتسجيل -> التسجيل الفصلي -> الضغط على العلامة الخضراء بجانب المساق المسجل للفصل الحالي.
 
             او من خلال التوجه الي رئيس قسمك او مدير الكلية.
        </template>
@@ -374,25 +394,17 @@
     <category>
         <pattern> pullCourse </pattern>
         <template>
-            يسمح للطالب بسحب أي مساق خلال ثلاثة أسابيع من بداية
-            الفصل الدراسي، مع مراعاة الحد الأدنى للعبء الدراسي،
-            ويحق للطالب استرداد الرسوم كاملة للمساقات التي سحبها،
-            أما إذا سحب جميع المساقات المسجلة في تلك الفترة فإنه يحق للطالب
-            أن يسترد في الأسبوع الأول 80% من كامل رسوم المواد المسجلة،
-            و60% في الأسبوع الثاني، و40% في الأسبوع الثالث.
+            يسمح للطالب بسحب أي مساق خلال ثلاثة أسابيع من بداية الفصل الدراسي، مع مراعاة الحد الأدنى للعبء الدراسي، ويحق للطالب استرداد الرسوم كاملة للمساقات التي سحبها، أما إذا سحب جميع المساقات المسجلة في تلك الفترة فإنه يحق للطالب
+            أن يسترد في الأسبوع الأول 80% من كامل رسوم المواد المسجلة، و60% في الأسبوع الثاني، و40% في الأسبوع الثالث.
 
-            وذلك من خلال صفحتك الجامعية ومن ثم -> القبول والتسجيل -> التسجيل الفصلي ->
-            الضغط على العلامة الحمراء بجانب المساق المسجل للفصل الحالي.
+            وذلك من خلال صفحتك الجامعية ومن ثم -> القبول والتسجيل -> التسجيل الفصلي -> الضغط على العلامة الحمراء بجانب المساق المسجل للفصل الحالي.
        </template>
     </category>
 
     <category>
         <pattern> pullingOutcourse </pattern>
         <template>
-            يسمح للطالب بالانسحاب من أي مساق (مساقات) بعد ثلاثة أسابيع
-            وحتى نهاية الأسبوع الثاني عشر من بداية الدراسة للفصل الدراسي،
-            ويفقد حقه في استرداد رسوم ذلك المساق (المساقات) وتسجل علامة (w)
-            في الكشف، مع مراعاة الحد الأدنى للعبء الدراسي.
+            يسمح للطالب بالانسحاب من أي مساق (مساقات) بعد ثلاثة أسابيع وحتى نهاية الأسبوع الثاني عشر من بداية الدراسة للفصل الدراسي، ويفقد حقه في استرداد رسوم ذلك المساق (المساقات) وتسجل علامة (w) في الكشف، مع مراعاة الحد الأدنى للعبء الدراسي.
 
             وذلك من خلال التوجه الى مدير كليتك او الى عمادة شؤون الطلبة.
        </template>
@@ -436,17 +448,14 @@
     <category>
         <pattern> GPA </pattern>
         <template>
-            هو ناتج مجموع حاصل ضرب علامة كل مساق درسه الطالب في عدد ساعاته المعتمدة مقسومة على عدد
-           الساعات الكلي حتى تاريخ احتساب ذلك المعدل،وذلك للمساقات التي تقع ضمن وذلك للمساقات التي
-             تقع ضمن خطة الطالب الأكاديمية.
+            هو ناتج مجموع حاصل ضرب علامة كل مساق درسه الطالب في عدد ساعاته المعتمدة مقسومة على عدد الساعات الكلي حتى تاريخ احتساب ذلك المعدل،وذلك للمساقات التي تقع ضمن وذلك للمساقات التي تقع ضمن خطة الطالب الأكاديمية.
         </template>
     </category>
 
     <category>
         <pattern> SemesterAverage </pattern>
         <template>
-            هو ناتج مجموع حاصل ضرب علامة كل مساق درسه الطالب في عدد ساعاته
-              المعتمدة مقسومة على عدد الساعات المعتمدة المسجلة لذلك الفصل.
+            هو ناتج مجموع حاصل ضرب علامة كل مساق درسه الطالب في عدد ساعاته المعتمدة مقسومة على عدد الساعات المعتمدة المسجلة لذلك الفصل.
         </template>
     </category>
 

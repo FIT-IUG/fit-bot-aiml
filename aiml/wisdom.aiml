@@ -22,6 +22,27 @@
      </template>
   </category>
 
+    <category>
+       <pattern> # حكمة # </pattern>
+       <template>
+           <srai>حكم</srai>
+       </template>
+    </category>
+
+    <category>
+       <pattern> # حكمه # </pattern>
+       <template>
+           <srai>حكم</srai>
+       </template>
+    </category>
+
+    <category>
+       <pattern> # مثل # </pattern>
+       <template>
+           <srai>حكم</srai>
+       </template>
+    </category>
+
   <category>
      <pattern> حكم </pattern>
      <template>

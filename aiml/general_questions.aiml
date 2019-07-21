@@ -63,4 +63,133 @@
         <template>يمكنك مراجعة الدكتور صاحب المادة</template>
     </category>
 
+    <category>
+        <pattern> # <set>student</set> # </pattern>
+        <template>
+            صحيح, يجوز لطالب الالتحاق بكلية تكنولوجيا المعلومات, اذا كان حاصلا على معدل(65%) فما فوق في التوجيهي.
+        </template>
+    </category>
+
+    <category>
+        <pattern> # الكلية # <set>place</set> # </pattern>
+        <template>
+            بالقرب من المسجد من الجهة الشمالية الشرقية وخلف مبنى التعليم المستمر.
+        </template>
+    </category>
+
+    <category>
+        <pattern> # الكلية # </pattern>
+        <template>
+             يمكنك معرفة عن الكلية من خلال http://fit.iugaza.edu.ps/عن-الكلية/نبـذة-عن-الكلية
+        </template>
+    </category>
+
+    <category>
+        <pattern> # كلية تكنولوجيا المعلومات # </pattern>
+        <template>
+             يمكنك معرفة عن الكلية من خلال http://fit.iugaza.edu.ps/عن-الكلية/نبـذة-عن-الكلية
+        </template>
+    </category>
+
+    <category>
+        <pattern> # كلية تكنولوجيا المعلومات # <set>sections</set> # </pattern>
+        <template>
+           يمكنك معرفة تفاصيل عن تخصصات وأقسام الكلية من خلال الرابط التالي http://fit.iugaza.edu.ps/الأقسام
+        </template>
+    </category>
+
+    <category>
+        <pattern> # الكلية # <set>sections</set> # </pattern>
+        <template>
+            يمكنك معرفة تفاصيل عن تخصصات وأقسام الكلية من خلال الرابط التالي http://fit.iugaza.edu.ps/الأقسام
+        </template>
+    </category>
+
+    <category>
+        <pattern> # <set>sections</set> # </pattern>
+        <template>
+            يمكنك معرفة تفاصيل عن تخصصات وأقسام الكلية من خلال الرابط التالي http://fit.iugaza.edu.ps/الأقسام
+        </template>
+    </category>
+
+    <category>
+        <pattern> # أسم الكلية  # </pattern>
+        <template>
+            كلية تكنولوجيا المعلومات - Faculty of Information Technology (IT(
+        </template>
+    </category>
+
+    <category>
+        <pattern> # اسم الكلية  # </pattern>
+        <template>
+            كلية تكنولوجيا المعلومات - Faculty of Information Technology (IT(
+        </template>
+    </category>
+
+    <category>
+        <pattern> # مفتاح التنسيق # </pattern>
+        <template>
+                مفتاح التنسيق لكلية تكنولوجيا المعلومات كالتالي:
+                1- مفتاح التنسيق للفرع العام: 65%.
+                2- مفتاح التنسيق لفرع تكنولوجيا الوسائط المتعددة وتطوير الويب: عملي(65%), أدبي(70%).
+                3- مفتاح التنسيق لفرع الحوسبة المتنقلة وتطبيقات الأجهزة الذكية: علمي(65%), أدبي(70%).
+        </template>
+    </category>
+
+    <category>
+        <pattern> # التطبيق # </pattern>
+        <template>
+                تم أنشاء تطبيق FIT-bot تحت إشراف وتوجيه الدكتور: معتز سعد وتطوير الطلاب: عبيدة العيسوي, رامي الحلو, أمجد العجرمي, عدي عطاالله.
+        </template>
+    </category>
+
+    <category>
+        <pattern> # انتم # </pattern>
+        <template>
+                نحن الطلاب: عبيدة العيسوي, رامي الحلو, أمجد العجرمي, عدي عطاالله الذين قمنا بإنشاءو تطوير تطبيق FIT-bot تحت إشراف وتوجيه الدكتور: معتز سعد.
+        </template>
+    </category>
+
+    <category>
+        <pattern> # عمرك # </pattern>
+        <template>
+                تقريبا 4 أشهر
+        </template>
+    </category>
+
+    <category>
+        <pattern> # مين معي # </pattern>
+        <template>
+                معك FIT-bot كيف ممكن أساعدك؟
+        </template>
+    </category>
+
+    <category>
+        <pattern> # مشرف # </pattern>
+        <template>
+                الدكتور معتز سعد
+        </template>
+    </category>
+
+    <category>
+        <pattern> # المشرف # </pattern>
+        <template>
+                الدكتور معتز سعد
+        </template>
+    </category>
+
+    <category>
+        <pattern> # كم أسم لديك # </pattern>
+        <template>
+                فقط أسم واحد وهو FIT-bot
+        </template>
+    </category>
+
+    <category>
+        <pattern> # كم اسم لديك # </pattern>
+        <template>
+                فقط أسم واحد وهو FIT-bot
+        </template>
+    </category>
+
 </aiml>

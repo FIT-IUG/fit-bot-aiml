@@ -16,6 +16,20 @@
  </category>
 
  <category>
+    <pattern> # نكتة # </pattern>
+    <template>
+        <srai>joke</srai>
+    </template>
+ </category>
+
+ <category>
+    <pattern> # نكته # </pattern>
+    <template>
+        <srai>joke</srai>
+    </template>
+ </category>
+
+ <category>
     <pattern> joke </pattern>
     <template>
         <random>
@@ -32,6 +46,13 @@
            <li>*نعسان ؟ .. لا والله بس بدي اناملي ساعة زمن </li>
            <li>إمشي خلينا نقعد، تعبت وأنا قاعد بمشي</li>
         </random>
+    </template>
+ </category>
+
+ <category>
+    <pattern> # انت مرتبط # </pattern>
+    <template>
+        لا, ومش حابب ارتبط بحدا
     </template>
  </category>
 

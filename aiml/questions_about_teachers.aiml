@@ -25,28 +25,28 @@
     <category>
         <pattern> # عميد # </pattern>
         <template>
-            الدكتور ربحي بركة
+            الدكتور إياد الأغا
         </template>
     </category>
 
     <category>
         <pattern> # العميد # </pattern>
         <template>
-            الدكتور ربحي بركة
+            الدكتور إياد الأغا
         </template>
     </category>
 
     <category>
         <pattern> # <set>general_words</set> # <set>teachers_title</set> #  </pattern>
         <template>
-          gif يمكنك معرفة ذلك من خلال http://fit.iugaza.edu.ps/عن-الكلية/الهيئة-التدريسية
+          gif يمكنك معرفة البريد الالكتروني الخاص بالدكتور او المعيد من خلال http://fit.iugaza.edu.ps/عن-الكلية/الهيئة-التدريسية
         </template>
     </category>
 
     <category>
-        <pattern> # <set>general_words</set> # <set>teachers_names</set> #  </pattern>
+        <pattern> # <set>phone_number</set> # <set>teachers_title</set> #  </pattern>
         <template>
-          gif يمكنك معرفة ذلك من خلال http://fit.iugaza.edu.ps/عن-الكلية/الهيئة-التدريسية
+            يمكنك التوجة الى سكرتير الكلية او مدير الكلية او مراسلتنا عبر بريدنا الاكتروني itc@iugaza.edu.ps او الاتصال على الرقم 00970 8 2644400
         </template>
     </category>
 
@@ -65,24 +65,18 @@
     </category>
 
     <category>
-        <pattern> # <set>office_hours</set> # <set>teachers_title</set> # <set>teachers_names</set> # </pattern>
+        <pattern> # <set>office_hours</set> # <set>teachers_title</set> # </pattern>
         <template>
             <map name="teachers_office_hours"><star index="6"/></map>
         </template>
     </category>
 
     <category>
-        <pattern> # مكتب # <set>teachers_title</set> # <set>teachers_names</set> # </pattern>
+        <pattern> # <set>office</set> # <set>teachers_title</set> # <set>teachers_names</set> # </pattern>
         <template>
-            <map name="teachers_office_location"><star index="5"/></map>
+            <map name="teachers_office_location"><star index="6"/></map>
         </template>
     </category>
 
-    <category>
-        <pattern> # غرفة # <set>teachers_title</set> # <set>teachers_names</set> # </pattern>
-        <template>
-            <map name="teachers_office_location"><star index="5"/></map>
-        </template>
-    </category>
 
 </aiml>

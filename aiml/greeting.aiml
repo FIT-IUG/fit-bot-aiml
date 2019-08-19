@@ -9,25 +9,37 @@
 	</category>
 
 	<category>
-    	<pattern> # <set>self</set> # </pattern>
+		<pattern> # السلام عليكم # </pattern>
+		<template>
+               وعليكم السلام, اهلاً وسهلاً بك وشكراً لتواصلك معنا في كلية تكنولوجيا المعلومات
+        </template>
+	</category>
+
+	<category>
+		<pattern> # سلام عليكم # </pattern>
+		<template>
+               وعليكم السلام, اهلاً وسهلاً بك وشكراً لتواصلك معنا في كلية تكنولوجيا المعلومات
+        </template>
+	</category>
+
+	<category>
+    	<pattern> <set>self</set> <set>names</set>  </pattern>
     	<template>
-            <think><set name="username"> <star index="3"/></set></think>مرحبا بك
-            <get name="username"></get>,كيف ممكن أساعدك؟
+            <think><set name="username"><star index="2"/></set></think>مرحبا بك <get name="username"></get> ,كيف ممكن أساعدك؟
         </template>
     </category>
 
 	<category>
     	<pattern> <set>names</set> </pattern>
     	<template>
-            <think><set name="username"><star/></set></think>مرحبا بك
-            <get name="username"></get>,كيف ممكن أساعدك؟
+            <think><set name="username"><star/></set></think>مرحبا بك <get name="username"></get> ,كيف ممكن أساعدك؟
         </template>
     </category>
 
     <category>
         <pattern> # اسمك # </pattern>
         <template>
-            أسمي Fit-Bot ,ايش أسمك أنت؟
+            أسمي Fit-Bot ,ما هو إسمك؟
        </template>
     </category>
 
@@ -133,6 +145,16 @@
     <category>
         <pattern> # كل عام وانت بخير # </pattern>
         <template>و انت بخير</template>
+    </category>
+
+    <category>
+        <pattern> # يعطيك العافية # </pattern>
+        <template>الله يعافيك</template>
+    </category>
+
+    <category>
+        <pattern> # يعطيك العافيه # </pattern>
+        <template>الله يعافيك</template>
     </category>
 
 </aiml>

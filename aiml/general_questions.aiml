@@ -44,6 +44,13 @@
     </category>
 
     <category>
+        <pattern> # <set>courses</set> # </pattern>
+        <template>
+            <map name="courses"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
         <pattern> # رسالة # <set>recommendation</set> # </pattern>
         <template>يمكنك الحصول عليها من خلال التواصل مع سكيرتير الكلية او الدكتور الذي تريد الرسالة منه</template>
     </category>
@@ -66,42 +73,74 @@
     <category>
         <pattern> # <set>student</set> # </pattern>
         <template>
-            صحيح, يجوز لطالب الالتحاق بكلية تكنولوجيا المعلومات, اذا كان حاصلا على معدل(65%) فما فوق في التوجيهي.
+            صحيح, يجوز لطالب الالتحاق بكلية تكنولوجيا المعلومات, اذا كان حاصلا على معدل(70%) فما فوق في التوجيهي.
         </template>
     </category>
 
     <category>
-        <pattern> # الكلية # <set>place</set> # </pattern>
+        <pattern> # <set>place</set> # <set>faculty</set> # </pattern>
         <template>
             بالقرب من المسجد من الجهة الشمالية الشرقية وخلف مبنى التعليم المستمر.
         </template>
     </category>
 
     <category>
-        <pattern> # الكلية # </pattern>
+        <pattern> # <set>study_plan</set> # <set>faculty</set> # </pattern>
         <template>
-             يمكنك معرفة عن الكلية من خلال http://fit.iugaza.edu.ps/عن-الكلية/نبـذة-عن-الكلية
+           يمكنك معرفة الخطة الدراسية وساعات الدراسة لقسم علم الحاسوب من خلال: http://dnntest.iugaza.edu.ps/fit/الأقسام/علم-الحاسوب/الخطة-الدراسية
+           يمكنك معرفة الخطة الدراسية وساعات الدراسة لقسم تطوير البرمجيات من خلال: http://dnntest.iugaza.edu.ps/fit/الأقسام/تطوير-البرمجيات/الخطة-الدراسية
+           يمكنك معرفة الخطة الدراسية وساعات الدراسة لقسم نظم المعلومات من خلال: http://dnntest.iugaza.edu.ps/fit/الأقسام/نظم-تكنولوجيا-المعلومات/الخطة-الدراسية
+           يمكنك معرفة الخطة الدراسية وساعات الدراسة لقسم تكنولوجيا الوسائط المتعددة وتطوير الويب من خلال: http://dnntest.iugaza.edu.ps/fit/الأقسام/تكنولوجيا-الوسائط-المتعددة-و-تطوير-الويب
+           يمكنك معرفة الخطة الدراسية وساعات الدراسة لقسم الحوسبة المتنقلة وتطبيقات الاجهزة الذكية من خلال: http://dnntest.iugaza.edu.ps/fit/الأقسام/الحوسبة-المتنقلة-وتطبيقات-الأجهزة-الذكية/الخطة-الدراسية
         </template>
     </category>
 
     <category>
-        <pattern> # كلية تكنولوجيا المعلومات # </pattern>
+        <pattern> # <set>ask_words</set> # <set>faculty</set> # </pattern>
         <template>
-             يمكنك معرفة عن الكلية من خلال http://fit.iugaza.edu.ps/عن-الكلية/نبـذة-عن-الكلية
+             كلية تكنولوجيا المعلومات تم إنشاءها في العام 2004 وكانت تتكون من قسم واحد وهو قسم علم الحاسوب وكانت ايضا من ضمن كلية العلوم, ثم اصبحت كلية تكنولوجيا المعلومات كلية قائمة بذاتها منفصلة عن كلية العلوم وجاء هذا الامر استجابة للحاجة الملحة لهذا التخصص. ولمزيد من المعلومات يمكنك الاطلاع على هذا الرابط  http://fit.iugaza.edu.ps/عن-الكلية/نبـذة-عن-الكلية
         </template>
     </category>
 
     <category>
-        <pattern> # كلية تكنولوجيا المعلومات # <set>sections</set> # </pattern>
+        <pattern> # <set>ask_words</set> # <set>computer_science</set> # </pattern>
+        <template>
+                يمكنك معرفة تفاصيل عن التخصص من خلال الرابط التالي http://fit.iugaza.edu.ps/الأقسام/علم-الحاسوب
+        </template>
+    </category>
+
+    <category>
+        <pattern> # <set>ask_words</set> # <set>software_development</set> # </pattern>
+        <template>
+                يمكنك معرفة تفاصيل عن التخصص من خلال الرابط التالي http://fit.iugaza.edu.ps/الأقسام/تطوير-البرمجيات
+        </template>
+    </category>
+
+    <category>
+        <pattern> # <set>ask_words</set> # <set>multimedia</set> # </pattern>
+        <template>
+                يمكنك معرفة تفاصيل عن التخصص من خلال الرابط التالي http://fit.iugaza.edu.ps/الأقسام/تكنولوجيا-الوسائط-المتعددة-و-تطوير-الويب
+        </template>
+    </category>
+
+    <category>
+        <pattern> # <set>ask_words</set> # <set>information_system</set> # </pattern>
+        <template>
+                يمكنك معرفة تفاصيل عن التخصص من خلال الرابط التالي http://fit.iugaza.edu.ps/الأقسام/نظم-تكنولوجيا-المعلومات
+        </template>
+    </category>
+
+    <category>
+        <pattern> # <set>ask_words</set> # <set>smart_phones</set> # </pattern>
+        <template>
+                يمكنك معرفة تفاصيل عن التخصص من خلال الرابط التالي http://fit.iugaza.edu.ps/الأقسام/الحوسبة-المتنقلة-وتطبيقات-الأجهزة-الذكية
+        </template>
+    </category>
+
+    <category>
+        <pattern> # <set>sections</set> # <set>faculty</set> # </pattern>
         <template>
            يمكنك معرفة تفاصيل عن تخصصات وأقسام الكلية من خلال الرابط التالي http://fit.iugaza.edu.ps/الأقسام
-        </template>
-    </category>
-
-    <category>
-        <pattern> # الكلية # <set>sections</set> # </pattern>
-        <template>
-            يمكنك معرفة تفاصيل عن تخصصات وأقسام الكلية من خلال الرابط التالي http://fit.iugaza.edu.ps/الأقسام
         </template>
     </category>
 
@@ -113,26 +152,37 @@
     </category>
 
     <category>
-        <pattern> # أسم الكلية  # </pattern>
+        <pattern> # <set>faculty</set> أسم # </pattern>
         <template>
             كلية تكنولوجيا المعلومات - Faculty of Information Technology (IT(
         </template>
     </category>
 
     <category>
-        <pattern> # اسم الكلية  # </pattern>
+        <pattern> # <set>faculty</set> اسم # </pattern>
         <template>
             كلية تكنولوجيا المعلومات - Faculty of Information Technology (IT(
         </template>
     </category>
 
     <category>
-        <pattern> # مفتاح التنسيق # </pattern>
+        <pattern> # <set>acceptance_average</set> # </pattern>
         <template>
-                مفتاح التنسيق لكلية تكنولوجيا المعلومات كالتالي:
-                1- مفتاح التنسيق للفرع العام: 65%.
-                2- مفتاح التنسيق لفرع تكنولوجيا الوسائط المتعددة وتطوير الويب: عملي(65%), أدبي(70%).
-                3- مفتاح التنسيق لفرع الحوسبة المتنقلة وتطبيقات الأجهزة الذكية: علمي(65%), أدبي(70%).
+                يمكنك معرفة مفتاح التنسيق او معدل القبول لكلية تكنولوجيا المعلومات من خلال http://fit.iugaza.edu.ps/عن-الكلية/مفتاح-التنسيق
+        </template>
+    </category>
+
+    <category>
+        <pattern> # مشرف # </pattern>
+        <template>
+                الدكتور معتز سعد
+        </template>
+    </category>
+
+    <category>
+        <pattern> # المشرف # </pattern>
+        <template>
+                الدكتور معتز سعد
         </template>
     </category>
 
@@ -165,18 +215,18 @@
     </category>
 
     <category>
-        <pattern> # مشرف # </pattern>
+        <pattern> # مين انت # </pattern>
         <template>
-                الدكتور معتز سعد
+                انا FIT-bot كيف ممكن أساعدك؟
         </template>
     </category>
 
-    <category>
-        <pattern> # المشرف # </pattern>
+     <category>
+        <pattern> # <set>popular_words</set> # </pattern>
         <template>
-                الدكتور معتز سعد
+            <map name="popular_words"><star index="2"/></map>
         </template>
-    </category>
+     </category>
 
     <category>
         <pattern> # كم أسم لديك # </pattern>
@@ -190,6 +240,11 @@
         <template>
                 فقط أسم واحد وهو FIT-bot
         </template>
+    </category>
+
+    <category>
+        <pattern> # <set>time</set> # </pattern>
+        <template><date format="%B %d, %Y" /></template>
     </category>
 
 </aiml>

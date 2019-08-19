@@ -14,7 +14,7 @@
      <category>
         <pattern> # التعارض # </pattern>
         <template>
-            يمكنك التوجة للمرشد الخاص بقسمك.
+            يمكنك التوجه للمرشد الخاص بقسمك.
             ويمكنك معرفة مرشد قسمك من خلال  http://fit.iugaza.edu.ps/عن-الكلية/الإرشاد-الأكاديمي
         </template>
      </category>
@@ -22,7 +22,31 @@
      <category>
         <pattern> # تعارض # </pattern>
         <template>
-            يمكنك التوجة للمرشد الخاص بقسمك.
+            يمكنك التوجه للمرشد الخاص بقسمك.
+            ويمكنك معرفة مرشد قسمك من خلال  http://fit.iugaza.edu.ps/عن-الكلية/الإرشاد-الأكاديمي
+        </template>
+     </category>
+
+     <category>
+        <pattern> # معادلة # </pattern>
+        <template>
+             يمكنك التوجه للمرشد الخاص بقسمك لحل مشكلة المعادلة.
+            ويمكنك معرفة مرشد قسمك من خلال  http://fit.iugaza.edu.ps/عن-الكلية/الإرشاد-الأكاديمي
+        </template>
+     </category>
+
+     <category>
+        <pattern> # اعادل # </pattern>
+        <template>
+            يمكنك التوجه للمرشد الخاص بقسمك لحل مشكلة المعادلة.
+            ويمكنك معرفة مرشد قسمك من خلال  http://fit.iugaza.edu.ps/عن-الكلية/الإرشاد-الأكاديمي
+        </template>
+     </category>
+
+     <category>
+        <pattern> # المعادلة # </pattern>
+        <template>
+             يمكنك التوجه للمرشد الخاص بقسمك لحل مشكلة المعادلة.
             ويمكنك معرفة مرشد قسمك من خلال  http://fit.iugaza.edu.ps/عن-الكلية/الإرشاد-الأكاديمي
         </template>
      </category>

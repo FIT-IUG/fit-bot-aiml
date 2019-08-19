@@ -17,5 +17,6 @@
         <pattern> # سعر الساعة # <set>specializations</set> # </pattern>
         <template>25 دينار</template>
     </category>
+
     
 </aiml>

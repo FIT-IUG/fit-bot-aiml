@@ -45,6 +45,12 @@
               <li value="الحد الأقصى لنيل الدرجة الجامعية الاولى"><srai>DurationOfNormalDegree</srai></li>
               <li value="الحد الأكثر لنيل الدرجة الجامعية الاولى"><srai>DurationOfNormalDegree</srai></li>
               <li value="الحد الأكبر لنيل الدرجة الجامعية الاولى"><srai>DurationOfNormalDegree</srai></li>
+              <li value="الساعات"><srai>maxOfHours</srai></li>
+              <li value="للساعات"><srai>maxOfHours</srai></li>
+              <li value="حد الساعات"><srai>maxOfHours</srai></li>
+              <li value="حد للساعات"><srai>maxOfHours</srai></li>
+              <li value="عدد الساعات"><srai>maxOfHours</srai></li>
+              <li value="اعلى حد للساعات"><srai>maxOfHours</srai></li>
               <li value="اعلى حد للساعات"><srai>maxOfHours</srai></li>
               <li value="اقصى حد للساعات"><srai>maxOfHours</srai></li>
               <li value="اكثر حد للساعات"><srai>maxOfHours</srai></li>
